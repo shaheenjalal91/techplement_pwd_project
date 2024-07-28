@@ -1,0 +1,229 @@
+Microsoft 365 is a cloud based platform used for productivity by companies
+we can use excell, word, powershell,outlook and many more here
+It can be accessed online as well as ofline 
+We also have a option here to give the users excess to it
+We can add, delete the user
+So the user can access the data from anywhere anytime
+That is the reason it is a cloud based platform
+
+
+//now there is a question what is the diff bw office 365 and microsoft 365
+:microsoft 365 is a new version
+:The diff is that microsoft 365 is updated with time to time by microsoft backend team
+:Here we get the extra 100Gb of cloud storage
+:We have to buy the subscription plan for months or years and then we have to renew it
+:We can share the subscription upto 5 people
+:This is more secured than office 365
+
+But, what is office 365, this we buy only once in a life time
+there are no upgrade options, which means if we want to have the new update we have to purchase it completely with full amount
+
+
+
+Q:Can you explain what Microsoft 365 is and its key components?
+ans:It is a subscription based service provided by microsoft
+    It uses office applications for productivity of the company
+    It has advanced security feautures and device management capabilities.
+    It is designed so that the organizations can work on a single platform.
+
+  :Its key components are:
+     :Office apps> eg> word,excel, outlook
+     :cloud services
+     :Security features
+        : It has Advanced Threat Protection (ATP): Protects against advanced cyber threats by providing email filtering, anti-phishing, and malware protection
+     :Device management
+     :Collaboration Tools
+         :eg:Microsoft teams
+     :Business Intelligence Tools
+     :compliance or Data Protection
+         : It has DLP(Data Loss Prevention)
+
+
+Q:How does Microsoft 365 ensure data security and compliance?
+Ans: There are several ways Microsoft 365 ensures data security and compliance(data loss prevention):-
+     1.Encryption: Microsoft 365 encryptes the data ensuring the data in rest as well as transit is encrypted to prevent the data from unauthorized access
+     2.Identity and Excess Management: Microsoft 365 makes user to do sign in every time(SSO=Single Sign On) and uses multi factor authentication(MFA)
+     3.DLP(Data Loss Prevention): administrators can define rules to govern how data is handled and take actions such as blocking access or alerting users when policy violations occur
+     4.ATP(Advanced Threat Protection): ATP features include email filtering, safe attachments, safe links, and anti-phishing measures to detect and mitigate security risks.
+     5.Regular Updates and Monitoring
+     6.Third-Party Audits and Certifications
+     7.Customer Control and Transparency: Microsoft provides customers with control over their data through configurable privacy settings, data access controls, and
+       transparency regarding how data is handled and protected within the Microsoft 365 environment.
+
+Q:Can you describe the process of migrating an organization to Microsoft 365 from a different platform?
+Ans:Migrating an organization to Microsoft 365 from a different platform involves several steps to ensure a smooth transition 
+
+1.Assessment and Planning:
+
+    Evaluate the current IT infrastructure, including existing email systems, collaboration tools, and data storage solutions.
+    Identify the goals and objectives for migrating to Microsoft 365, such as improving collaboration, enhancing security, or reducing costs.
+    Determine the scope of the migration, including the number of users, types of data to be migrated, and any specific requirements or constraints.
+    
+2.Licensing and Subscription:
+
+    Choose the appropriate Microsoft 365 subscription plan based on the organization's requirements and budget.
+    Purchase the necessary licenses for users and services, ensuring compliance with licensing agreements and regulations.
+    
+3.Preparation:
+
+    Prepare the existing environment for migration by ensuring compatibility with Microsoft 365.
+    Verify system requirements, such as operating system versions, browser compatibility, and network connectivity.
+    Address any potential issues or dependencies, such as outdated software, incompatible configurations, or data cleanliness.
+
+4.Data Migration:
+
+    Migrate email data, contacts, calendars, and tasks from the existing email system (e.g., on-premises Exchange Server, Gmail, etc.) to Microsoft 365 Exchange Online.
+   Migrate files and documents from on-premises file servers or cloud storage platforms to Microsoft 365 SharePoint Online or OneDrive for Business.
+   Utilize migration tools and services provided by Microsoft or third-party vendors to streamline the migration process and ensure data integrity.
+
+5.Configuration and Deployment:
+
+    Configure Microsoft 365 services and settings according to the organization's requirements, including user provisioning, security policies, and collaboration features.
+    Deploy Microsoft 365 applications and services to end-users, providing training and support as needed to facilitate adoption.
+    Testing and Validation:
+
+    Conduct thorough testing of the migrated data and services to ensure functionality, performance, and compatibility.
+    Validate user access, permissions, and workflows to confirm that they align with the organization's needs and expectations.
+
+6.Training and Adoption:
+
+    Provide training and resources to end-users to familiarize them with Microsoft 365 applications and features.
+    Encourage adoption of Microsoft 365 services by highlighting the benefits and capabilities that support users' daily tasks and workflows.
+    
+7.Post-migration Support:
+
+    Monitor the Microsoft 365 environment for any issues or challenges that may arise post-migration.
+    Provide ongoing support and assistance to end-users, addressing any questions, concerns, or technical issues promptly.
+
+8.Optimization and Continuous Improvement:
+
+    Continuously evaluate and optimize the Microsoft 365 environment based on user feedback, performance metrics, and evolving business needs.
+    Stay informed about updates, new features, and best practices recommended by Microsoft to maximize the organization's investment in Microsoft 365.
+
+
+
+Q:What are the benefits of using Microsoft Teams within Microsoft 365?
+Ans:The benefits of using within MIcrosoft 365 is that they can use chat, video call, mailing within the app and they can use the apps provided by the Microsoft 365 within the app
+    and also the third party can access it and they can have a data sharing and meeting inside it. Also, they can get the better security and compliance things within it.
+
+
+Q:How do you manage identities in Microsoft 365?
+Ans:Identities here means the users(Their privacy, data etc)
+   1.Azure Active Directory (Azure AD):it serves as the identity and access management service for Microsoft 365.
+     Azure AD stores user identities, credentials, and attributes in a centralized directory.
+     It provides authentication and authorization services to control access to Microsoft 365 resources, such as Office 365 applications, SharePoint Online, and Microsoft Teams
+     Administrators can provision and manage user accounts in Azure AD, including creating new accounts, updating user profiles, and assigning licenses and roles.
+     User attributes such as name, email address, job title, and department can be managed within Azure AD to facilitate user identification and access control.
+   2.Single Sign-On (SSO):
+      Azure AD supports single sign-on (SSO) functionality, allowing users to sign in once only so that they do not have to sign in again and again
+   3.Multi-Factor Authentication (MFA):
+      Azure AD offers multi-factor authentication (MFA) capabilities to enhance security(user will get OTP or call)
+   4.Self-Service Password Reset (SSPR):
+
+
+
+Q:Explain the process of setting up a hybrid environment with Microsoft 365.
+
+Ans:Setting up a hybrid environment means taking the on premises services or load to cloud(here refers to Microsoft 365)
+    So, first the company will plan about it what they need then they will take the proper subscription of it and then will implement Azure Active Directory to it
+    which has its own benefits as already discussed and they will exchange the data bw on premises servers to hybrid(Microsoft 365 here) and then they will setup security and 
+    then they will provide the training to their IT staff and end users to let them know about this and then their should be proper maintenance and continous assesment for 
+    future improvement.
+
+
+
+Q:What is PowerShell, and how is it used in managing Microsoft 365?
+
+Ans:It is a tool present in Microsoft 365 for admins so that they can manage multiple user accounts to make a check on them, to create reports etc.
+
+
+Q:Describe how to configure email protection features in Microsoft 365.
+
+Ans:The admin will go first to the security and compliance center and then he will enable EOP(Exchange Online protection) and then he will set ATP and then DLP and then he will enable safe links and then he will review reports and will provide the training and awareness to its users of it.
+
+
+
+Q:How would you recover lost data in Microsoft 365?
+Ans: 1.first I will know the data type
+     2.Then I will check the recycle bin
+     3.Then I will use restore function
+     4.Or we can use history option also
+     5.Check retension polices which means whether the data lost is still under retension policies 
+     6.Restore from backup
+     7.If these things not work I will contact Microsoft support
+     8.I will educate my employees about the importance of data and security
+
+
+
+Q:A user is unable to access their email on Outlook through Microsoft 365. What steps would you take to resolve this?
+Ans:I will confirm the user details and then I will check his account status and then I will confirm which version he is using of outlook and then I will check his connectivity 
+    and then I will see is there any service issues and then I will tell him to change the pw of his acount and clear cache and disable antivirus and update his outlook and if still
+    not resolved I will escalate the case to higher authorities and will provide him the TAT.
+
+
+
+Q: What is Outlook and what are its uses?
+ans: Microsoft outlook is present inside Microsoft 365 also, its an application used for sending and receiving email messages, we can also use it as to manage us a calender and store names
+     and contacts and it provides us the security as well from spam messages and it has filter inbuilt also which stops it from receiving unneccary emails.
+
+
+Q:What is Exchange?
+ans:  Microsoft exchange is used in work places and schools, it also recieves and send emails and manages the calenders for us and stores the contact names but the only difference between
+     Microsft exchange and outlook is that exchange operates as a robust infrastructure while as outlook is user friendly interface.
+
+
+Q: What is sharepoint?
+Ans:  Sharepoint is a simple sharing software used to create websites, we can here store the data from anywhere using any of the devices. It is a very secure place to store, organise and      
+share the data or access the data from anywhere.
+
+Q: what is an active directory?
+ans: I will explain this with an eg: when we setup an email or password for our computer it gets stored in a database which we here called as an active directory and next time when I login 
+     to my computer, my computer checks the database whether this kind of person is registered here or not and if I am it will allow me to use the resources of the computer.
+     Same is here with active directory, it is a database which stores the data and resources and connect users through a network to use those resources.
+
+
+Q: What is DNS?
+ans: DNS means Domain Name System, it is a phonebook of internet, we access information on internet throught domain names like instagram.com, google.com etc, so what DNS do is that it converts domain name into an IP address so that the internet can understand this and will get us the data that we require.
+
+
+Q: what is GPO?
+Ans: GPO(Group Policy Object) is a collection of Group Policy settings, that define what a system will look like and how it will behave for a group of users, sysadmins can change settings
+     , manage applications, and user settings throughout an entire organization. In simple words it is an administration tool which allows user to make changes in their settings on computer or network.
+
+
+Q:What is difference between Microsoft 365 group and distribution list?
+Ans: Microsoft 365 Groups are used for collaboration between users, both inside and outside your company. They include collaboration services such as SharePoint and Planner. Microsoft Teams uses Microsoft 365 Groups for membership. Distribution groups are used for sending email notifications to a group of people.
+
+
+Q:What is the difference between a mailbox and a shared mailbox?
+Ans: The main difference between a shared mailbox vs. a user mailbox is that multiple people can use and respond from the shared mailbox using their own credentials, whereas a mailbox only has one username and password that works for access.
+
+Q: What is OneDrive vs Google Drive?
+Ans: OneDrive is a Microsoft cloud storage solution, while Google Drive is (you guessed it) a Google cloud storage solution. The biggest difference between the two may be storage capacity—OneDrive has 5 GB of free storage plus 100 GB and 1 TB paid options.
+
+
+Q: What is the diff between DHCP and DNS?
+Ans: Domain Name System (DNS) is an Internet service that translates domain names (e.g., its.umich.edu) into IP addresses. Dynamic Host Configuration Protocol (DHCP) is a protocol for automatically assigning IP addresses and other configurations to devices when they connect to a network.
+
+
+Q: What is a domain controller used for?
+Ans: it is a kind of middleware, domain controller is the server responsible for managing network and identity security requests. It acts as a gatekeeper and authenticates whether the user is authorized to access the IT resources in the domain.
+
+
+Q: How to open outlook in safe mode?
+Ans: Right-click the Start button, and click Run. 2. Type Outlook.exe /safe, and click OK
+
+
+Q: What is organisational unit?
+Ans: An organizational unit (OU) is a subdivision within an Active Directory into which you can place users, groups, computers, and other organizational units.
+
+
+
+
+
+
+
+
+
+
+

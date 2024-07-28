@@ -1,0 +1,12 @@
+//for technical round
+
+//video1
+//difference bw office 365 and Microsoft 365
+//actually M 365 is an advanced version of office 365, M365 has advanced threat protection and DLP data loss prevention and has is a subscription based cloud platform
+//here user can use Excell, powerpoint, teams, outlook, sharepoint, inshare and many more things within the platform
+
+
+//actually there are 3 types of email services:
+1. onpremises    2.cloud based like M365 or google cloud      3.other resources like Azure, AWS, godaddy where we can host our websites and can also use it for mail sharing but we have to pay for it
+
+//

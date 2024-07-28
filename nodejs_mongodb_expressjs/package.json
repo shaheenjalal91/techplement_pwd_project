@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_mongodb_expressjs",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chacha": "echo \"shaheen nay banaya yeh script\""
+  },
+  "keywords": [],
+  "author": "Shaheen Jalal",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "accessibility": "^6.0.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "one-liner-joke": "^1.2.2"
+  }
+}

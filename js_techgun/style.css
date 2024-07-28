@@ -1,0 +1,13 @@
+body{
+    background-color: #ae7c7c;
+}
+#container{
+    background-color: #7cc04c;
+    padding: 200px;
+    margin: 200px;
+}
+#btn{
+    border-radius: 20px;
+    color: rgb(15, 15, 21);
+    background-color: rgb(198, 130, 42);
+}

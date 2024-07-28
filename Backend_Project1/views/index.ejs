@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main w-full min-h-screen bg-zinc-900">
+        <div class="form p-10 text-white">
+             <form action="/create" method="post">
+                <!--so I have created action create so I will create a route create in my index.js-->
+                <input class="block w-full rounded-md outline-none px=5 py=2 bg-zinc-800 " type="text" placeholder="Title goes here" name="title">
+                <textarea class="block w-full rounded-md outline-none mt-2 px=5 py=2 resize-none bg-zinc-800" placeholder="Write your task details here" name="details"></textarea>
+                <input class="mt-2 bg-blue-600 px-5 py-2 rounded-md" type="Submit" value="Create Task">
+             </form>
+        </div>
+        <div class="tasks p-10 flex gap-3 flex-wrap">
+            <!--Now what if there are no files then we will use ifelse condition-->
+            <% if( files.length>0 ){ %>
+                <!--since there can be many files so it is like an array and each time the new file will be there and here we take it as an parameter which is val-->
+                <% files.forEach(function(val){ %>
+                    <div class="task min-w-72  px-3 py-4 rounded-md bg-zinc-800">
+                        <h1 class="text-white text-3xl tracking-tighter"><%= val %>></h1>
+                        <div class="flex  w-full justify-between items-center mt-5">
+                            <a class="text-blue-500 inline-block " href="/file/<%= val %>">Read more</a>
+                            <!--If the user wants to change the name of the file-->
+                            <a class="bg-zinc-600" href="/files/<%= val %>">edit filename</a>
+                            <!--NOw if we click on edit on webpage it will give us a url therefore route so we need to create that one so let us go to index.js page-->
+                        </div>
+                    </div>
+                    <% }) %>
+            <% } else{ %>
+                <h3 class="text-zinc-600">No tasks yet</h3>
+            <% } %>
+        </div>
+    </div>
+</body>
+</html>
