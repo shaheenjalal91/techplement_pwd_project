@@ -1,4 +1,4 @@
-//video 7
+
 //Hands on practice
 //ok so lets get started
 //I am starting from blank
@@ -105,6 +105,5 @@ app.post("/create", function(req,res){
 app.listen(1000);
 
 
-//video 9
-//now I want if the user wants to change the name of his file
+
 
